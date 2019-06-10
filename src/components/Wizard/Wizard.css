@@ -1,0 +1,89 @@
+.wizard{
+    background-color: #E5F4EC;
+    height: 89vh;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#wizardHeader{
+    margin: 0;
+    width: 53vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+}
+#cancel {
+    background-color: #FEC2C2;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 125%;
+}
+
+#inputwizard {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: space-around;
+}
+#cityStateZip {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+}
+.steps {
+    width: 53vw;
+    display: flex;
+    flex-direction: row-reverse;
+    /* flex-basis:  */
+    justify-content: space-between;
+    /* justify-content: flex-end */
+}
+.changeStep {
+    width: 10vw;
+    background-color: #3B5249;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 125%;
+}
+
+#complete {
+    background-color: #8AEA92;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 125%;
+}
+
+.inputs {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

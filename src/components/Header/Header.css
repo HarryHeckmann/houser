@@ -1,0 +1,23 @@
+#header {
+    background-color: #519872;
+    width: 100vw;
+    color: white;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+}
+
+#logo_title {
+    padding-left: 10px;
+    width: 53vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#title {
+    margin-left: 20px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+
+}

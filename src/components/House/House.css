@@ -1,0 +1,34 @@
+.houses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.houseBox {
+    padding: 10px;
+    width: 53vw;
+    background-color: #DEDEDE;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.infoBox {
+    width: 37vw;
+    background-color: #DEDEDE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: space-between;
+
+}
+
+#delete {
+    background-color: #DEDEDE;
+    display: flex;
+    align-items: center;
+}
+#delete:hover {
+    cursor: pointer;
+}
